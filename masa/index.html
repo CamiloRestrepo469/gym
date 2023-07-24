@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio XYZ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Gimnasio XYZ</h1>
+
+    <form id="form">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" required>
+        <label for="age">Edad:</label>
+        <input type="number" id="age" required>
+        <label for="weight">Peso (kg):</label>
+        <input type="number" id="weight" required>
+        <label for="height">Altura (cm):</label>
+        <input type="number" id="height" required>
+        <button type="submit">Calcular Masa Muscular</button>
+    </form>
+
+    <div id="result"></div>
+
+    <div id="users"></div>
+
+    <script src="js/model.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+</html>

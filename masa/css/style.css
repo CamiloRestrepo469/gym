@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+
+form {
+    margin-left: calc(30%);
+    margin-bottom: 20px;
+    text-align: left; /* Agregar esta línea para centrar los input y label */
+}
+
+form label,
+form input {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+form input:hover {
+    color: red;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+#users {
+
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #fff;
+   
+}
